@@ -36,7 +36,7 @@ services:
       - PGSQL_HOST=zabbix-db
       - ZBX_SRV_HOST=zabbix-server
     ports:
-      - 80:80
+      - 87:80
   zabbix-agent1:
     build: zabbix-agent
     image: zabbix-agent
